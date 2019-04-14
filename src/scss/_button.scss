@@ -1,5 +1,42 @@
-.btn {
-	&--orange {
+// TOHLE NENI PODLE BEM!!!
 
+.btn {
+	padding: 0.7em;
+	color: $grey;
+	background-color: $pink;
+	text-decoration: none;
+	margin-right: 0.7em;
+	border-radius: 0.3em;
+	display: inline-block;
+	text-transform: uppercase;
+
+	&--brown {
+		background-color: $brown;
+		color: white;
+	}
+
+	&--grey {
+		background-color: $grey;
+		color: white;
+	}
+
+	&--big {
+		font-size: 2rem;
+	}
+
+	.btn__price {
+		background-color: white;
+		opacity: .3;
+		margin-right: 0.5em;
+		padding: 0.5em;
+		font-size: 0.8em;
+		color: black;
+		border-radius: 0.5em;
+	}
+
+	.btn__text {
+		font-weight: 600;
+		letter-spacing: 2px;
 	}
 }
+

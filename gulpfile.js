@@ -13,7 +13,7 @@ function style() {
 		.on("error", sass.logError)
 		.pipe(postcss([autoprefixer(), cssnano()]))
 		.pipe(sourcemaps.write())
-		.pipe(gulp.dest('./dist/css/template.css'))
+		.pipe(gulp.dest('./dist/css/'))
 }
 
 function watch() {
