@@ -16,6 +16,10 @@
 	}
 }
 
+.menu__item--active {
+	background-color: $brown;
+}
+
 .menu__link {
 	color: white;
 	font-size: 1.5rem;
